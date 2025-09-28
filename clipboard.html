@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋 클립보드 자동화 툴 | 무료 다운로드 및 사용법</title>
+    <link rel="stylesheet" href="clipboard-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>📋 ClipBoard Pro</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#features">기능</a></li>
+                <li><a href="#guide">사용법</a></li>
+                <li><a href="#download">다운로드</a></li>
+                <li><a href="kakao-promo.html" class="nav-special">💰 코인 알림방</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">🚀 무료 툴</div>
+                <h2>클립보드 작업을<br>자동화하세요!</h2>
+                <p>반복적인 복사-붙여넣기 작업을 자동화하여<br>업무 효율성을 극대화하는 강력한 도구입니다.</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="download-button">
+                        💾 무료 다운로드
+                    </a>
+                    <button class="demo-button" onclick="scrollToSection('guide')">
+                        📖 사용법 보기
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">무료</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50KB</span>
+                        <span class="stat-label">초경량</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Win10+</span>
+                        <span class="stat-label">호환성</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-demo">
+                <div class="demo-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <span class="window-title">ClipBoard Pro v1.0</span>
+                    </div>
+                    <div class="window-content">
+                        <div class="demo-text">
+                            <div class="typing-text">클립보드 내용 자동 감지중...</div>
+                            <div class="clipboard-items">
+                                <div class="clipboard-item">📝 복사된 텍스트 1</div>
+                                <div class="clipboard-item">🔗 https://example.com</div>
+                                <div class="clipboard-item">📊 데이터 분석 결과</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>🎯 주요 기능</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>실시간 모니터링</h3>
+                        <p>클립보드 변경사항을 실시간으로 감지하고 자동으로 처리합니다.</p>
+                        <div class="feature-details">
+                            <ul>
+                                <li>0.1초 단위 감지</li>
+                                <li>메모리 효율적 처리</li>
+                                <li>백그라운드 동작</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>자동 처리</h3>
+                        <p>설정된 규칙에 따라 클립보드 내용을 자동으로 가공하고 처리합니다.</p>
+                        <div class="feature-details">
+                            <ul>
+                                <li>텍스트 포맷팅</li>
+                                <li>URL 단축</li>
+                                <li>데이터 변환</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💾</div>
+                        <h3>히스토리 관리</h3>
+                        <p>복사한 모든 내용을 기록하고 언제든 다시 사용할 수 있습니다.</p>
+                        <div class="feature-details">
+                            <ul>
+                                <li>최대 1000개 저장</li>
+                                <li>검색 기능</li>
+                                <li>카테고리 분류</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>보안 강화</h3>
+                        <p>민감한 정보는 자동으로 필터링하여 안전하게 보호합니다.</p>
+                        <div class="feature-details">
+                            <ul>
+                                <li>패스워드 감지</li>
+                                <li>개인정보 보호</li>
+                                <li>암호화 저장</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>맞춤 설정</h3>
+                        <p>사용자의 작업 패턴에 맞게 세밀한 설정이 가능합니다.</p>
+                        <div class="feature-details">
+                            <ul>
+                                <li>핫키 설정</li>
+                                <li>규칙 커스터마이징</li>
+                                <li>알림 설정</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>고성능</h3>
+                        <p>최소한의 시스템 리소스로 최대의 성능을 제공합니다.</p>
+                        <div class="feature-details">
+                            <ul>
+                                <li>RAM 사용량 < 10MB</li>
+                                <li>CPU 사용률 < 1%</li>
+                                <li>빠른 응답속도</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide" class="guide">
+            <div class="container">
+                <h2>📖 상세 사용법 및 원리</h2>
+                
+                <div class="guide-tabs">
+                    <button class="tab-button active" onclick="showTab('installation')">📥 설치 방법</button>
+                    <button class="tab-button" onclick="showTab('usage')">🎯 사용 방법</button>
+                    <button class="tab-button" onclick="showTab('principle')">🔬 작동 원리</button>
+                </div>
+
+                <div id="installation" class="tab-content active">
+                    <h3>📥 간단 설치 가이드</h3>
+                    
+                    <div class="simple-steps">
+                        <div class="simple-step">
+                            <div class="step-header">
+                                <span class="step-num">1</span>
+                                <h4>다운로드 & 실행</h4>
+                            </div>
+                            <div class="step-visual">
+                                <div class="download-flow">
+                                    <div class="flow-item">
+                                        <div class="flow-icon">💾</div>
+                                        <span>다운로드</span>
+                                    </div>
+                                    <div class="flow-arrow">→</div>
+                                    <div class="flow-item">
+                                        <div class="flow-icon">🖱️</div>
+                                        <span>더블클릭</span>
+                                    </div>
+                                    <div class="flow-arrow">→</div>
+                                    <div class="flow-item">
+                                        <div class="flow-icon">✅</div>
+                                        <span>완료</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-info">
+                                <p><strong>ClipBoard_Pro.exe</strong> 파일을 다운로드하고 더블클릭으로 실행하세요.</p>
+                            </div>
+                        </div>
+
+                        <div class="simple-step">
+                            <div class="step-header">
+                                <span class="step-num">2</span>
+                                <h4>보안 경고 해제</h4>
+                            </div>
+                            <div class="step-visual">
+                                <div class="security-mockup">
+                                    <div class="security-alert">
+                                        <div class="alert-icon">⚠️</div>
+                                        <div class="alert-content">
+                                            <strong>Windows 보안 경고</strong>
+                                            <p>알 수 없는 게시자</p>
+                                        </div>
+                                        <div class="alert-actions">
+                                            <button class="btn-primary">추가 정보</button>
+                                        </div>
+                                    </div>
+                                    <div class="security-next">
+                                        <div class="next-arrow">↓</div>
+                                        <button class="btn-run">실행</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-info">
+                                <p><strong>"추가 정보"</strong> → <strong>"실행"</strong> 클릭하면 됩니다.</p>
+                            </div>
+                        </div>
+
+                        <div class="simple-step">
+                            <div class="step-header">
+                                <span class="step-num">3</span>
+                                <h4>시스템 트레이 확인</h4>
+                            </div>
+                            <div class="step-visual">
+                                <div class="tray-mockup">
+                                    <div class="tray-location">
+                                        <span class="tray-label">화면 우측 하단</span>
+                                        <div class="tray-preview">
+                                            <span class="tray-icon">🔊</span>
+                                            <span class="tray-icon">📶</span>
+                                            <span class="tray-icon highlight">📋</span>
+                                            <span class="tray-time">2:30</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-info">
+                                <p><strong>📋 아이콘</strong>이 나타나면 설치 완료! 바로 사용할 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-tips">
+                        <h4>💡 빠른 팁</h4>
+                        <div class="tip-grid">
+                            <div class="tip-item">
+                                <span class="tip-icon">🖱️</span>
+                                <div class="tip-content">
+                                    <strong>더블클릭</strong>
+                                    <p>설정 창 열기</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <span class="tip-icon">⌨️</span>
+                                <div class="tip-content">
+                                    <strong>Ctrl + H</strong>
+                                    <p>히스토리 보기</p>
+                                </div>
+                            </div>
+                            <div class="tip-item">
+                                <span class="tip-icon">🔄</span>
+                                <div class="tip-content">
+                                    <strong>자동 시작</strong>
+                                    <p>PC 켜면 자동 실행</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="usage" class="tab-content">
+                    <h3>🎯 사용법 (3초 완성)</h3>
+                    
+                    <div class="usage-simple">
+                        <div class="usage-main">
+                            <div class="usage-step">
+                                <div class="usage-visual">
+                                    <div class="keyboard-demo">
+                                        <div class="key-combo">
+                                            <span class="key">Ctrl</span>
+                                            <span class="plus">+</span>
+                                            <span class="key">C</span>
+                                        </div>
+                                        <div class="demo-arrow">→</div>
+                                        <div class="auto-save">
+                                            <span class="save-icon">💾</span>
+                                            <span class="save-text">자동 저장</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><strong>평소처럼 복사하면 자동으로 저장됩니다!</strong></p>
+                            </div>
+
+                            <div class="usage-step">
+                                <div class="usage-visual">
+                                    <div class="keyboard-demo">
+                                        <div class="key-combo">
+                                            <span class="key">Ctrl</span>
+                                            <span class="plus">+</span>
+                                            <span class="key">H</span>
+                                        </div>
+                                        <div class="demo-arrow">→</div>
+                                        <div class="history-preview">
+                                            <div class="history-item">📝 텍스트 1</div>
+                                            <div class="history-item">🔗 링크 2</div>
+                                            <div class="history-item">📊 데이터 3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><strong>Ctrl + H로 히스토리를 보고 선택하세요!</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="hotkey-reference">
+                            <h4>⌨️ 주요 단축키</h4>
+                            <div class="hotkey-list-simple">
+                                <div class="hotkey-row">
+                                    <span class="hotkey">Ctrl + C</span>
+                                    <span class="hotkey-desc">복사 (자동 저장)</span>
+                                </div>
+                                <div class="hotkey-row">
+                                    <span class="hotkey">Ctrl + H</span>
+                                    <span class="hotkey-desc">히스토리 보기</span>
+                                </div>
+                                <div class="hotkey-row">
+                                    <span class="hotkey">더블클릭 📋</span>
+                                    <span class="hotkey-desc">설정 창 열기</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="principle" class="tab-content">
+                    <h3>🔬 작동 원리 및 기술적 세부사항</h3>
+                    <div class="principle-section">
+                        <div class="principle-card">
+                            <h4>🖥️ 시스템 아키텍처</h4>
+                            <div class="architecture-diagram">
+                                <div class="arch-layer">
+                                    <span class="layer-title">사용자 인터페이스</span>
+                                    <div class="layer-content">시스템 트레이, 설정 창, 히스토리 창</div>
+                                </div>
+                                <div class="arch-arrow">↓</div>
+                                <div class="arch-layer">
+                                    <span class="layer-title">클립보드 모니터</span>
+                                    <div class="layer-content">실시간 감지, 이벤트 처리</div>
+                                </div>
+                                <div class="arch-arrow">↓</div>
+                                <div class="arch-layer">
+                                    <span class="layer-title">처리 엔진</span>
+                                    <div class="layer-content">규칙 적용, 데이터 변환</div>
+                                </div>
+                                <div class="arch-arrow">↓</div>
+                                <div class="arch-layer">
+                                    <span class="layer-title">저장소</span>
+                                    <div class="layer-content">히스토리 DB, 설정 파일</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="principle-card">
+                            <h4>⚡ 클립보드 모니터링 원리</h4>
+                            <p>Windows API를 사용하여 클립보드 변경을 실시간으로 감지합니다.</p>
+                            <div class="code-block">
+                                <code>// 핵심 기술 스택<br>
+                                1. SetClipboardViewer() - 클립보드 체인 등록<br>
+                                2. WM_DRAWCLIPBOARD - 변경 이벤트 수신<br>
+                                3. GetClipboardData() - 데이터 추출<br>
+                                4. 멀티스레딩으로 UI 블로킹 방지</code>
+                            </div>
+                        </div>
+                        
+                        <div class="principle-card">
+                            <h4>🔄 데이터 처리 플로우</h4>
+                            <ol class="process-flow">
+                                <li><strong>감지:</strong> 클립보드 변경 이벤트 수신</li>
+                                <li><strong>검증:</strong> 데이터 타입 및 크기 확인</li>
+                                <li><strong>필터링:</strong> 보안 규칙 적용</li>
+                                <li><strong>변환:</strong> 사용자 정의 규칙 처리</li>
+                                <li><strong>저장:</strong> 히스토리 DB에 기록</li>
+                                <li><strong>알림:</strong> 사용자에게 상태 전달</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="principle-card">
+                            <h4>💾 메모리 최적화 기법</h4>
+                            <p>효율적인 메모리 관리로 시스템 부하를 최소화합니다.</p>
+                            <div class="code-block">
+                                <code>최적화 기법:<br>
+                                - 순환 버퍼로 메모리 사용량 제한<br>
+                                - 약한 참조(Weak Reference) 활용<br>
+                                - 가비지 컬렉션 최적화<br>
+                                - 대용량 데이터 스트리밍 처리</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <div class="container">
+                <h2>💾 다운로드</h2>
+                <div class="download-content">
+                    <div class="download-info">
+                        <h3>ClipBoard Pro v1.0</h3>
+                        <div class="version-info">
+                            <div class="info-item">
+                                <span class="info-label">버전:</span>
+                                <span class="info-value">1.0.0</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">크기:</span>
+                                <span class="info-value">50KB</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">호환성:</span>
+                                <span class="info-value">Windows 10/11</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">라이선스:</span>
+                                <span class="info-value">무료</span>
+                            </div>
+                        </div>
+                        
+                        <div class="download-buttons">
+                            <button class="main-download-btn" onclick="downloadFile()">
+                                💾 지금 다운로드
+                            </button>
+                            <button class="source-btn" onclick="viewSource()">
+                                📝 소스 코드 보기
+                            </button>
+                        </div>
+                        
+                        <div class="download-note">
+                            <p><strong>📋 다운로드 후 설치 방법:</strong></p>
+                            <ol>
+                                <li>다운로드한 EXE 파일을 원하는 폴더에 저장</li>
+                                <li>파일 우클릭 → 관리자 권한으로 실행</li>
+                                <li>Windows Defender 경고 시 '추가 정보' → '실행' 클릭</li>
+                                <li>시스템 트레이에서 📋 아이콘 확인</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                    <div class="system-requirements">
+                        <h4>💻 시스템 요구사항</h4>
+                        <div class="req-grid">
+                            <div class="req-item">
+                                <strong>운영체제:</strong>
+                                <span>Windows 10 이상</span>
+                            </div>
+                            <div class="req-item">
+                                <strong>메모리:</strong>
+                                <span>최소 4GB RAM</span>
+                            </div>
+                            <div class="req-item">
+                                <strong>저장공간:</strong>
+                                <span>1MB 이상</span>
+                            </div>
+                            <div class="req-item">
+                                <strong>기타:</strong>
+                                <span>.NET Framework 4.7.2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="changelog">
+                    <h4>📋 변경사항 (v1.0.0)</h4>
+                    <ul>
+                        <li>✨ 초기 릴리즈</li>
+                        <li>⚡ 실시간 클립보드 모니터링 기능</li>
+                        <li>💾 히스토리 관리 시스템</li>
+                        <li>🔒 보안 필터링 기능</li>
+                        <li>⚙️ 사용자 설정 인터페이스</li>
+                        <li>🎯 자동 텍스트 처리 규칙</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>📋 ClipBoard Pro</h4>
+                    <p>효율적인 클립보드 관리를 위한 무료 도구</p>
+                </div>
+                <div class="footer-section">
+                    <h4>🔗 링크</h4>
+                    <ul>
+                        <li><a href="#guide">사용법</a></li>
+                        <li><a href="#download">다운로드</a></li>
+                        <li><a href="kakao-promo.html">코인 알림방</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>📞 지원</h4>
+                    <p>📧 support@clipboardpro.com</p>
+                    <p>🐛 버그 신고 환영</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ClipBoard Pro. 모든 권리 보유. | 무료 소프트웨어</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="clipboard-script.js"></script>
+</body>
+</html>
