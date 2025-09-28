@@ -1,6 +1,6 @@
-# Graje - 나의 첫 웹사이트
+# Graje - 멀티 웹사이트 플랫폼
 
-GitHub Pages를 사용한 개인 웹사이트입니다.
+GitHub Pages를 사용한 통합 웹사이트 플랫폼입니다.
 
 ## 🌐 라이브 사이트
 [https://gogocar7982-cyber.github.io/graje](https://gogocar7982-cyber.github.io/graje)
@@ -8,11 +8,33 @@ GitHub Pages를 사용한 개인 웹사이트입니다.
 ## 📁 프로젝트 구조
 ```
 graje/
-├── index.html          # 메인 HTML 파일
-├── style.css           # CSS 스타일시트
-├── script.js           # JavaScript 파일
-└── README.md           # 프로젝트 설명서
+├── index.html              # 메인 홈페이지
+├── kakao-promo.html        # 카카오톡 오픈채팅방 홍보 페이지
+├── clipboard.html          # 클립보드 툴 소개 페이지
+├── style.css              # 메인 스타일시트
+├── kakao-style.css        # 카톡 홍보 페이지 스타일
+├── clipboard-style.css    # 클립보드 페이지 스타일
+├── script.js              # 메인 JavaScript
+├── kakao-script.js        # 카톡 페이지 JavaScript
+├── clipboard-script.js    # 클립보드 페이지 JavaScript
+└── README.md              # 프로젝트 설명서
 ```
+
+## 🎯 포함된 페이지들
+
+### 1. 메인 홈페이지 (index.html)
+- Graje 소개 및 서비스 안내
+- 다른 페이지들로의 네비게이션
+
+### 2. 카카오톡 오픈채팅방 홍보 페이지 (kakao-promo.html)
+- 신규 코인 상장 실시간 알림방 홍보
+- 채팅방 참여 가이드 및 혜택 소개
+- 반응형 디자인 및 인터랙티브 요소
+
+### 3. 클립보드 툴 페이지 (clipboard.html)
+- ClipBoard Pro 소개 및 다운로드
+- 간소화된 설치 가이드 (3단계)
+- 사용법 및 작동 원리 설명
 
 ## 🚀 GitHub와 연동하는 방법
 
@@ -77,22 +99,19 @@ git push origin main
 ## 🎨 커스터마이징 가이드
 
 ### 색상 변경
-`style.css` 파일에서 다음 색상들을 수정할 수 있습니다:
-- 주요 색상: `#4a90e2`
-- 배경 색상: `#f8f9fa`
-- 텍스트 색상: `#333`
+각 페이지별로 다른 테마 색상을 사용합니다:
+- **메인**: `#4a90e2` (파란색)
+- **카톡 홍보**: `#FFE066`, `#FF6B35` (노란색-주황색)
+- **클립보드**: `#4facfe`, `#00f2fe` (청록색)
 
 ### 콘텐츠 수정
-`index.html` 파일에서 다음 내용들을 수정할 수 있습니다:
-- 제목과 설명
-- 서비스 내용
-- 연락처 정보
+각 HTML 파일에서 해당 페이지의 내용을 수정할 수 있습니다.
 
 ### 기능 추가
-`script.js` 파일에서 추가 JavaScript 기능을 구현할 수 있습니다.
+각 페이지별 JavaScript 파일에서 추가 기능을 구현할 수 있습니다.
 
 ## 📱 반응형 디자인
-이 웹사이트는 다음 기기들에서 최적화되어 작동합니다:
+모든 페이지가 다음 기기들에서 최적화되어 작동합니다:
 - 데스크톱 (1200px+)
 - 태블릿 (768px - 1199px)
 - 모바일 (767px 이하)
