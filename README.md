@@ -3,7 +3,7 @@
 GitHub Pages를 사용한 통합 웹사이트 플랫폼입니다.
 
 ## 🌐 라이브 사이트
-[https://gogocar7982-cyber.github.io/graje](https://gogocar7982-cyber.github.io/graje)
+[https://graje.github.io/graje](https://graje.github.io/graje)
 
 ## 📁 프로젝트 구조
 ```
@@ -62,7 +62,7 @@ git commit -m "첫 번째 커밋: 웹사이트 초기 버전"
 ### 4단계: GitHub 저장소와 연결
 ```bash
 # GitHub 저장소와 연결
-git remote add origin https://github.com/gogocar7982-cyber/graje.git
+git remote add origin https://github.com/graje/graje.git
 git branch -M main
 git push -u origin main
 ```
